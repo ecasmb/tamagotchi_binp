@@ -1,0 +1,22 @@
+# PyTamagotchi
+---
+
+PyTamagotchi is een op tamagotchi gebaseerd spel waarbij een speler een virtueelhuisdier krijgt en deze zo tevreden, schoon en gezond moet houden. Het doel is dat het huisdier in de 25 rondes blijft leven en niet wegloopt.
+
+## Onderdelen
+---
+### 1. Hoofdmenu
+De speler vult hier zijn of haar naam in:
+>        Wat is je naam? _
+
+Deze invoer wordt gecontroleerd, als er niks ingevuld is wordt de naam opnieuw gevraagd. Vervolgens krijgt de speler het hoofdmenu voor zich:
+>      Wat wil je doen?
+>      1. Voeding toevoegen
+>      2. Tamagotchi spelen
+>      3. De ranking bekijken
+>      4. Afsluiten
+>      Maak een keuze: _
+
+## 1.1 Voeding toevoegen
+>      Voer voeding in (voorbeeld: wortel, snickers, spitskool, etc.): _
+>      Is deze voeding gezond (g) of ongezond (o)? _
