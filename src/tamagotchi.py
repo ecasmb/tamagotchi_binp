@@ -20,8 +20,13 @@ import shelve
 
 
 def main():
+    ## vraag naam via interface functie
     x = interface.name()
-    if x:
-        print(x)
+    ## clear shell
+    interface.clear_window()
+    ## Geef hoofdmenu
+    interface.main_menu(x)
+    interface.handle(main, interface.pick_number(1,4))
+
 
 main()
