@@ -22,5 +22,6 @@ import shelve
 def main():
     x = interface.name()
     if x:
-        s
+        print(x)
+
 main()
