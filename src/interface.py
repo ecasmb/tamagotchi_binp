@@ -22,7 +22,7 @@ def name():
         return z
 
 def main_menu(name):
-    return "Welkom", name, "\nWat wil je doen?\n1. Voeding toevoegen\n2. Tamagotchi spelen\n3. De ranking bekijken\n 4. Afsluiten\n\n"
+    return str("Welkom", name, "\nWat wil je doen?\n1. Voeding toevoegen\n2. Tamagotchi spelen\n3. De ranking bekijken\n 4. Afsluiten\n\n")
 
 def pick_number(low, high):
     while True:
