@@ -20,6 +20,8 @@ import shelve
 
 
 def main():
+    ## clear shell
+    interface.clear_window()
     ## vraag naam via interface functie
     x = interface.name()
     ## clear shell
